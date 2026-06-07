@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zitang | Premium Builder in Ilford</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">ZITANG.</div>
+        
+        <div class="lang-controls">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('fr')">FR</button>
+            <button onclick="setLanguage('de')">DE</button>
+        </div>
+
+        <!-- Hamburger Menu (CSS only, no emojis) -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#overview" data-i18n="nav_overview">Overview</a></li>
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Overview Section -->
+        <section id="overview" class="split-layout fade-in">
+            <div class="content-left">
+                <h1 data-i18n="hero_title">Master Craftsmanship</h1>
+                <h3 data-i18n="hero_subtitle">Operating in Ilford, London • Since 2026</h3>
+                <p data-i18n="hero_desc">Experienced builder with over 24 years working experience in the trades. Honest, reliable, and understanding professional proudly serving the local and surrounding area. No building job too small or too large.</p>
+                <a href="#contact" class="cta-btn" data-i18n="cta_button">Available Now</a>
+            </div>
+            <div class="image-right">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80" alt="Premium Construction Overview">
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="split-layout fade-in">
+            <div class="content-left">
+                <h2 data-i18n="services_title">Our Services</h2>
+                <ul class="premium-list">
+                    <li data-i18n="srv_1">Property Extensions</li>
+                    <li data-i18n="srv_2">General Builders</li>
+                    <li data-i18n="srv_3">Home Insulation</li>
+                    <li data-i18n="srv_4">Garage Conversions</li>
+                    <li data-i18n="srv_5">Damp Proofing</li>
+                </ul>
+            </div>
+            <div class="image-right">
+                <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?auto=format&fit=crop&w=1000&q=80" alt="Building Services">
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="fade-in">
+            <div class="section-header">
+                <h2 data-i18n="portfolio_title">Portfolio</h2>
+                <p data-i18n="portfolio_subtitle">A showcase of our recent projects.</p>
+            </div>
+            <div class="grid-gallery">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Portfolio 1"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80" alt="Portfolio 2"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600566753086-00f18efc2291?auto=format&fit=crop&w=600&q=80" alt="Portfolio 3"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80" alt="Portfolio 4"></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="split-layout fade-in">
+            <div class="content-left">
+                <h2 data-i18n="contact_title">Get in Touch</h2>
+                <p data-i18n="contact_desc">Please get in touch to find out more about my services and availability. Let's build something exceptional.</p>
+                <div class="contact-details">
+                    <p class="phone-number">0745 591 2278</p>
+                </div>
+            </div>
+            <div class="image-right">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80" alt="Contact Builder">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zitang Builders. <span data-i18n="footer_text">All rights reserved.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
